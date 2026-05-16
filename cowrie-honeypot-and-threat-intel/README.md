@@ -49,17 +49,16 @@ This repository documents the complete setup, deployment, integration, and dashb
 
 ## Architecture Diagram
 
-```md
+
 ![Architecture](images/architecture.png)
-```
+
 
 ---
 
 ## Wazuh Dashboard
 
-```md
+
 ![Dashboard](images/dashboard.png)
-```
 
 
 ---
