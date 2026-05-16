@@ -1,0 +1,1 @@
+{ "timestamp": "2026-05-16T10:30:00Z", "rule": { "id": "87105", "level": 12, "description": "VirusTotal: Malicious file detected" }, "agent": { "id": "001", "name": "ubuntu-agent" }, "virustotal": { "source": { "file": "/home/ubuntu/Downloads/eicar.com" }, "positives": 66, "total": 72 } }
