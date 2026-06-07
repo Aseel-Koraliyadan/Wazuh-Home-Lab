@@ -1,4 +1,3 @@
-```markdown
 # Lessons Learned
 
 ## Alert Fatigue
@@ -49,4 +48,3 @@ Solution:
 - Automation reduces response time.
 - Thresholding prevents SIEM overload.
 - SOAR dramatically improves containment speed.
-```
