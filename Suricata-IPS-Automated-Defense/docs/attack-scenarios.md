@@ -1,4 +1,3 @@
-```markdown
 # Attack Scenarios
 
 ## Scenario 1 - Nmap FIN Scan
@@ -68,4 +67,3 @@ Expected Result:
 - Alert Generated
 - Rule 1000010 Triggered
 - Firewall Block Applied
-```
