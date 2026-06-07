@@ -1,0 +1,12 @@
+```xml
+<decoder name="json-child">
+  <parent>json</parent>
+  <plugin_decoder>JSON_Decoder</plugin_decoder>
+</decoder>
+
+<decoder name="json-child">
+  <parent>json</parent>
+  <regex type="pcre2">"src_ip":"([^"]+)"</regex>
+  <order>srcip</order>
+</decoder>
+```
