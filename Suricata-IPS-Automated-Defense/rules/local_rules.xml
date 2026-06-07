@@ -1,4 +1,3 @@
-```xml
 <group name="suricata, custom_ips,">
   <rule id="100050" level="12">
     <if_sid>86601</if_sid>
@@ -8,4 +7,3 @@
     </description>
   </rule>
 </group>
-```
