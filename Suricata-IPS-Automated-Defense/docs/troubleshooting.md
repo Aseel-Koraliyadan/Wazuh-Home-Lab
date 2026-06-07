@@ -1,4 +1,3 @@
-```markdown
 # Troubleshooting
 
 ## Suricata Not Generating Alerts
@@ -46,4 +45,3 @@ Windows:
 netsh advfirewall firewall show rule name=all
 
 Check active response logs.
-```
