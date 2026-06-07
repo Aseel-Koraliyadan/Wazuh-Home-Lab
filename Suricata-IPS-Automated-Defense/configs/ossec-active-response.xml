@@ -1,8 +1,6 @@
-```xml
 <active-response>
   <command>netsh</command>
   <location>local</location>
   <rules_id>100050</rules_id>
   <timeout>300</timeout>
 </active-response>
-```
