@@ -61,13 +61,7 @@ Unlike traditional IDS deployments that require analyst intervention, this archi
                     └─────────────────────┘
 ```
 
----
 
-## Network Topology
-
-> Add topology screenshot below
-
-![Network Topology](images/topology.png)
 
 ---
 
@@ -347,22 +341,8 @@ hydra -l Administrator -P pass.txt rdp://192.168.230.1
 
 ---
 
-# Threat Hunting Dashboard
+# Threat Hunting 
 
-A dedicated OpenSearch visualization was built for threat hunting and executive reporting.
-
----
-
-## Threat Hunting Query
-
-```text
-rule.level >= 10 AND
-(rule.groups: "suricata" OR rule.groups: "active_response")
-```
-
----
-
-## Dashboard Screenshot
 
 ![Threat Hunting Dashboard](images/threat-hunting-dashboard.png)
 
