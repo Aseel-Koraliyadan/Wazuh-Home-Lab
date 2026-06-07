@@ -23,7 +23,14 @@ Welcome to my central Wazuh-Home-Lab repository. This workspace contains enterpr
 **Objective:** Deploy a secure, public-facing honeypot to capture, log, and analyze real-world brute-force attacks and automated botnet activity.
 * **Architecture:** Provisioned a cloud-based Virtual Private Server (VPS) and hardened the host OS firewall.
 * **Deception:** Configured and deployed the **Cowrie** SSH/Telnet honeypot to simulate a vulnerable Linux filesystem.
-* **Analysis:** Captured and analyzed live attacker behaviors, including credential brute-forcing, lateral movement attempts, and malicious payload downloads. 
+* **Analysis:** Captured and analyzed live attacker behaviors, including credential brute-forcing, lateral movement attempts, and malicious payload downloads.
+
+### [📁 Project 3: Enterprise Intrusion Prevention System (Suricata + Wazuh)](./Suricata-IPS-Automated-Defense)
+
+**Objective:** Engineer a closed-loop Intrusion Prevention System (IPS) capable of Deep Packet Inspection (DPI) and automated attacker isolation.
+* **Architecture:** Configured **Suricata** on a Windows Server endpoint to forward JSON threat intelligence to an Ubuntu Wazuh Manager.
+* **Detection:** Authored custom, rate-limited Suricata signatures to detect reconnaissance, web exploits, and brute-force attacks while actively mitigating SIEM alert fatigue.
+* **Automation:** Orchestrated a SOAR pipeline using custom child decoders to override native JSON parsing, triggering instantaneous Windows firewall drops against malicious IPs.
 
 ---
 *Open to networking and collaborative security research. Let's connect on LinkedIn!*
