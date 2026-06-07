@@ -1,4 +1,3 @@
-```markdown
 # Architecture
 
 ## Components
@@ -41,4 +40,3 @@ Attacker
 Add topology screenshot:
 
 images/topology.png
-```
